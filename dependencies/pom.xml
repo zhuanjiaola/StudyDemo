@@ -6,7 +6,6 @@
     <artifactId>dependencies</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <url>http://www.funtl.com</url>
     <properties>
         <!-- Commons -->
         <okhttp3.version>4.1.0</okhttp3.version>
@@ -29,13 +28,6 @@
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    <developers>
-        <developer>
-            <id>liwemin</id>
-            <name>Lusifer Lee</name>
-            <email>lee.lusifer@gmail.com</email>
-        </developer>
-    </developers>
     <dependencyManagement>
         <dependencies>
             <!-- Spring Cloud -->

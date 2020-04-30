@@ -9,8 +9,6 @@
     </parent>
     <artifactId>provider</artifactId>
     <packaging>pom</packaging>
-    <url>http://www.funtl.com</url>
-    <inceptionYear>2018-Now</inceptionYear>
 
     <licenses>
         <license>
@@ -18,13 +16,6 @@
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    <developers>
-        <developer>
-            <id>liwemin</id>
-            <name>Lusifer Lee</name>
-            <email>lee.lusifer@gmail.com</email>
-        </developer>
-    </developers>
 
     <dependencies>
         <!-- Apache Dubbo -->
@@ -97,7 +88,7 @@
     <modules>
         <module>provider-tk</module>
         <module>provider-plus</module>
-        <module>provider-baidu</module>
+        <module>provider-bmap</module>
         <!--<module>provider-ums-admin-api</module>-->
         <!--<module>provider-ums-admin-service</module>-->
         <!--<module>provider-ums-admin-login-log-api</module>-->

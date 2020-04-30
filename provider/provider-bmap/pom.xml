@@ -7,23 +7,14 @@
         <artifactId>provider</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>provider-baidu</artifactId>
+    <artifactId>provider-bmap</artifactId>
     <packaging>jar</packaging>
-    <url>http://www.funtl.com</url>
-    <inceptionYear>2018-Now</inceptionYear>
     <licenses>
         <license>
             <name>Apache 2.0</name>
             <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
-    <developers>
-        <developer>
-            <id>liwemin</id>
-            <name>Lusifer Lee</name>
-            <email>lee.lusifer@gmail.com</email>
-        </developer>
-    </developers>
     <dependencies>
         <!-- Spring Boot -->
         <dependency>
@@ -76,7 +67,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.byx.study.plus.PlusProviderApplciation</mainClass>
+                    <mainClass>com.byx.study.bmap.BMapProviderApplciation</mainClass>
                 </configuration>
             </plugin>
         </plugins>

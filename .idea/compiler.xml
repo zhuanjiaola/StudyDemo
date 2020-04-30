@@ -6,16 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="business-bmap-feign" />
+        <module name="business-bmap-service" />
         <module name="commons-dto" />
         <module name="commons-mapper" />
         <module name="commons-utils" />
         <module name="configuration-mybatisplus" />
         <module name="provider-baidu" />
+        <module name="provider-bmap" />
         <module name="provider-plus" />
         <module name="provider-tk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="business" target="1.8" />
+      <module name="business-bmap-feign" target="1.8" />
+      <module name="business-bmap-service" target="1.8" />
       <module name="commons" target="1.8" />
       <module name="commons-dto" target="1.8" />
       <module name="commons-mapper" target="1.8" />
@@ -25,6 +31,7 @@
       <module name="dependencies" target="1.5" />
       <module name="provider" target="1.8" />
       <module name="provider-baidu" target="1.8" />
+      <module name="provider-bmap" target="1.8" />
       <module name="provider-plus" target="1.8" />
       <module name="provider-plus (1)" target="1.8" />
       <module name="provider-tk" target="1.8" />
@@ -33,11 +40,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="business-bmap-feign" options="-parameters" />
+      <module name="business-bmap-service" options="-parameters" />
       <module name="commons-dto" options="-parameters" />
       <module name="commons-mapper" options="-parameters" />
       <module name="commons-utils" options="-parameters" />
       <module name="configuration-mybatisplus" options="-parameters" />
       <module name="provider-baidu" options="-parameters" />
+      <module name="provider-bmap" options="-parameters" />
       <module name="provider-plus" options="-parameters" />
       <module name="provider-plus (1)" options="-parameters" />
       <module name="provider-tk" options="-parameters" />
