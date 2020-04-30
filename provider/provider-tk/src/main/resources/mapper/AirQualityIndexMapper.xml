@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.byx.study.tk.mapper.AirQualityIndexMapper">
+  <resultMap id="BaseResultMap" type="com.byx.study.tk.entity.AirQualityIndex">
+    <!--@mbg.generated generated on Wed Mar 25 15:40:03 CST 2020.-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="districtid" jdbcType="INTEGER" property="districtid" />
+    <result column="monitortime" jdbcType="DATE" property="monitortime" />
+    <result column="pm10" jdbcType="INTEGER" property="pm10" />
+    <result column="pm25" jdbcType="INTEGER" property="pm25" />
+    <result column="monitoringstation" jdbcType="VARCHAR" property="monitoringstation" />
+    <result column="lastmodifytime" jdbcType="TIMESTAMP" property="lastmodifytime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Wed Mar 25 15:40:03 CST 2020.-->
+    id, districtid, monitortime, pm10, pm25, monitoringstation, lastmodifytime
+  </sql>
+</mapper>

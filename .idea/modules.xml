@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/StudyDemo.iml" filepath="$PROJECT_DIR$/.idea/StudyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons-dto/commons-dto.iml" filepath="$PROJECT_DIR$/commons/commons-dto/commons-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons-mapper/commons-mapper.iml" filepath="$PROJECT_DIR$/commons/commons-mapper/commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons-utils/commons-utils.iml" filepath="$PROJECT_DIR$/commons/commons-utils/commons-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration/configuration-mybatisplus/configuration-mybatisplus.iml" filepath="$PROJECT_DIR$/configuration/configuration-mybatisplus/configuration-mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/dependencies/dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider-baidu/provider-baidu.iml" filepath="$PROJECT_DIR$/provider/provider-baidu/provider-baidu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider-plus/provider-plus.iml" filepath="$PROJECT_DIR$/provider/provider-plus/provider-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider-tk/provider-tk.iml" filepath="$PROJECT_DIR$/provider/provider-tk/provider-tk.iml" />
+    </modules>
+  </component>
+</project>
