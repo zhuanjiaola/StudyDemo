@@ -18,6 +18,7 @@
         <module>configuration</module>
         <module>provider</module>
         <module>business</module>
+        <module>javase</module>
         <!--<module>gateway</module>-->
         <!--<module>cloud</module>-->
         <!--<module>message</module>-->

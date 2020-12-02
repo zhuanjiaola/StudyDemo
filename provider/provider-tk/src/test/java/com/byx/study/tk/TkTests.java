@@ -47,11 +47,12 @@ public class TkTests {
 //            }
 //        };
 //        Comparator<Integer> comparator = Integer::compare;
-        Comparator<Integer> comparator = (o1, o2) -> Integer.compare(o1, o2);
+//        Comparator<Integer> comparator = (o1, o2) -> Integer.compare(o1, o2);
+        Comparator<Integer> comparator = Integer::compare;
         TreeSet<Integer> set = new TreeSet<>(comparator);
     }
 
-
+//
     @Test
     public void test03() {
         List<AirQualityIndex> airQualityIndices = Arrays.asList(
