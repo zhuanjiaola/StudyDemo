@@ -88,7 +88,6 @@
     <modules>
         <module>provider-tk</module>
         <module>provider-plus</module>
-        <module>provider-bmap</module>
         <!--<module>provider-ums-admin-api</module>-->
         <!--<module>provider-ums-admin-service</module>-->
         <!--<module>provider-ums-admin-login-log-api</module>-->
