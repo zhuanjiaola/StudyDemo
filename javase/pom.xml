@@ -15,6 +15,7 @@
     <modules>
         <module>design-pattern</module>
         <module>lambda-streamapi</module>
+        <module>algorithm</module>
     </modules>
 
     <dependencies>
