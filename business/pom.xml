@@ -62,6 +62,7 @@
     <modules>
         <module>business-bmap-feign</module>
         <module>business-bmap-service</module>
+        <module>business-oauth</module>
         <!--<module>business-reg</module>-->
         <!--<module>business-oauth2</module>-->
         <!--<module>business-profile-feign</module>-->
