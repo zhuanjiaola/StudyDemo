@@ -2,26 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="business-bmap-feign" />
-        <module name="business-bmap-service" />
+        <module name="provider-tk" />
         <module name="commons-dto" />
         <module name="commons-mapper" />
-        <module name="commons-utils" />
-        <module name="configuration-mybatisplus" />
-        <module name="provider-baidu" />
+        <module name="business-bmap-service" />
         <module name="provider-bmap" />
+        <module name="rabbitmq" />
+        <module name="commons-utils" />
+        <module name="business-oauth" />
         <module name="provider-plus" />
-        <module name="provider-tk" />
+        <module name="provider-baidu" />
+        <module name="business-bmap-feign" />
+        <module name="configuration-mybatisplus" />
+        <module name="lambda-streamapi" />
+        <module name="algorithm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="algorithm" target="1.8" />
       <module name="business" target="1.8" />
       <module name="business-bmap-feign" target="1.8" />
       <module name="business-bmap-service" target="1.8" />
+      <module name="business-oauth" target="1.8" />
       <module name="commons" target="1.8" />
       <module name="commons-dto" target="1.8" />
       <module name="commons-mapper" target="1.8" />
@@ -29,28 +36,37 @@
       <module name="configuration" target="1.8" />
       <module name="configuration-mybatisplus" target="1.8" />
       <module name="dependencies" target="1.5" />
+      <module name="design-pattern" target="1.8" />
+      <module name="javase" target="1.8" />
+      <module name="lambda-streamapi" target="1.8" />
       <module name="provider" target="1.8" />
       <module name="provider-baidu" target="1.8" />
       <module name="provider-bmap" target="1.8" />
       <module name="provider-plus" target="1.8" />
       <module name="provider-plus (1)" target="1.8" />
       <module name="provider-tk" target="1.8" />
+      <module name="rabbitmq" target="1.8" />
+      <module name="springboot-example" target="1.8" />
       <module name="StudyDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="algorithm" options="-parameters" />
       <module name="business-bmap-feign" options="-parameters" />
       <module name="business-bmap-service" options="-parameters" />
+      <module name="business-oauth" options="-parameters" />
       <module name="commons-dto" options="-parameters" />
       <module name="commons-mapper" options="-parameters" />
       <module name="commons-utils" options="-parameters" />
       <module name="configuration-mybatisplus" options="-parameters" />
+      <module name="lambda-streamapi" options="-parameters" />
       <module name="provider-baidu" options="-parameters" />
       <module name="provider-bmap" options="-parameters" />
       <module name="provider-plus" options="-parameters" />
       <module name="provider-plus (1)" options="-parameters" />
       <module name="provider-tk" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
     </option>
   </component>
 </project>

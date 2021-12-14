@@ -1,3 +1,4 @@
+/*
 package com.funtl.myshop.plus.fastdfs;
 
 import org.csource.common.NameValuePair;
@@ -17,10 +18,12 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+*/
 /**
  * @author wang zhen xing
  * @date 2020/5/15 11:24
- */
+ *//*
+
 @Component
 public class FastDFSStorageService implements StorageService, InitializingBean {
     private static final Logger logger = LoggerFactory.getLogger(FastDFSStorageService.class);
@@ -121,4 +124,4 @@ public class FastDFSStorageService implements StorageService, InitializingBean {
 
         logger.info("Init FastDFS with tracker_server : {}", trackerServer);
     }
-}
+}*/
