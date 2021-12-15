@@ -2,10 +2,10 @@ spring:
   application:
     name: spring-boot-amqp
   rabbitmq:
-    host: 192.168.86.129
+    host: localhost
     port: 5672
-    username: rabbit
-    password: 123456
+    username: guest
+    password: guest
 
 server:
   port: 8086

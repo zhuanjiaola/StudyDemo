@@ -12,6 +12,7 @@
         <module name="commons-mapper" />
         <module name="business-bmap-service" />
         <module name="provider-bmap" />
+        <module name="thread" />
         <module name="rabbitmq" />
         <module name="commons-utils" />
         <module name="business-oauth" />
@@ -48,6 +49,7 @@
       <module name="rabbitmq" target="1.8" />
       <module name="springboot-example" target="1.8" />
       <module name="StudyDemo" target="1.8" />
+      <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -67,6 +69,7 @@
       <module name="provider-plus (1)" options="-parameters" />
       <module name="provider-tk" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
+      <module name="thread" options="-parameters" />
     </option>
   </component>
 </project>

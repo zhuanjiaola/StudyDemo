@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/provider/provider-tk/provider-tk.iml" filepath="$PROJECT_DIR$/provider/provider-tk/provider-tk.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-example/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example/springboot-example.iml" filepath="$PROJECT_DIR$/springboot-example/springboot-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/thread/thread.iml" filepath="$PROJECT_DIR$/javase/thread/thread.iml" />
     </modules>
   </component>
 </project>
