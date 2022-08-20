@@ -19,6 +19,8 @@
         <module>provider</module>
         <module>business</module>
         <module>javase</module>
+        <module>spring</module>
+        <module>tc</module>
         <module>springboot-example</module>
         <!--<module>gateway</module>-->
         <!--<module>cloud</module>-->

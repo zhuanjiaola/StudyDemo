@@ -17,6 +17,7 @@
         <module>lambda-streamapi</module>
         <module>algorithm</module>
         <module>thread</module>
+        <module>moocStudy</module>
     </modules>
 
     <dependencies>

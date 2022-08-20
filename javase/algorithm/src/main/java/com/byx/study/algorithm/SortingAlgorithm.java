@@ -76,12 +76,17 @@ public class SortingAlgorithm {
     }
 
     @Test
-    void test05() {
+    public void test05() {
         int[] arr = {5, 3, 4, 6, 2, 1};
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
+    public static void sortBubble() {
+//        LoggerClient.info("specialScenePushMQ生成者启动成功！","specialScenePushJobProducer");
+//        LoggerClient.error("specialScenePush MQ消费组启动异常", e,"specialScenePushConsumer");
+
+    }
 
 
 }

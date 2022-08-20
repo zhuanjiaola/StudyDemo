@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="moocStudy" />
         <module name="provider-tk" />
         <module name="commons-dto" />
         <module name="commons-mapper" />
@@ -14,6 +15,7 @@
         <module name="provider-bmap" />
         <module name="thread" />
         <module name="rabbitmq" />
+        <module name="demo" />
         <module name="commons-utils" />
         <module name="business-oauth" />
         <module name="provider-plus" />
@@ -36,10 +38,12 @@
       <module name="commons-utils" target="1.8" />
       <module name="configuration" target="1.8" />
       <module name="configuration-mybatisplus" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="dependencies" target="1.5" />
       <module name="design-pattern" target="1.8" />
       <module name="javase" target="1.8" />
       <module name="lambda-streamapi" target="1.8" />
+      <module name="moocStudy" target="1.8" />
       <module name="provider" target="1.8" />
       <module name="provider-baidu" target="1.8" />
       <module name="provider-bmap" target="1.8" />
@@ -47,8 +51,10 @@
       <module name="provider-plus (1)" target="1.8" />
       <module name="provider-tk" target="1.8" />
       <module name="rabbitmq" target="1.8" />
+      <module name="spring" target="1.8" />
       <module name="springboot-example" target="1.8" />
       <module name="StudyDemo" target="1.8" />
+      <module name="tc" target="1.8" />
       <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -62,7 +68,9 @@
       <module name="commons-mapper" options="-parameters" />
       <module name="commons-utils" options="-parameters" />
       <module name="configuration-mybatisplus" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="lambda-streamapi" options="-parameters" />
+      <module name="moocStudy" options="-parameters" />
       <module name="provider-baidu" options="-parameters" />
       <module name="provider-bmap" options="-parameters" />
       <module name="provider-plus" options="-parameters" />

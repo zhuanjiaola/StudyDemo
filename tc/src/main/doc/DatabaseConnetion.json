@@ -1,0 +1,33 @@
+<add name="MetaDataDB" connectionString="Data Source=192.168.0.169,1439;Initial Catalog=master;User ID=17ujpadmin;Password=#dR%v1B9;MultipleActiveResultSets=True"></add>
+<add name="TCTrainBaseData" connectionString="server=10.100.156.106;Port=3500;user id=TCTrainBaseData_test;password=mXEt1pRXUJvrBZAwPirLA;database=TCTrainBaseData" />
+<add name="TCFlyTrainResource" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCFlyTrainQuery" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCFlyTrainOrder" connectionString="Data Source=10.100.173.5,1500;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainActivity" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCFlyTrainLog" connectionString="Data Source=10.100.173.5,1500;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainFinance" connectionString="Data Source=10.100.173.5,1500;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainQuery" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainMemberMarket" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainInterfaceLog" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainLog" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainGrabTicket" connectionString="Data Source=10.100.173.5,1500;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCTrainThirdPartyData" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCFlyTrain;Password=e255e#%@@a*$*^DEjp;MultipleActiveResultSets=True" />
+<add name="TCBaseTrain" connectionString="Data Source=10.14.86.186,1433;Initial Catalog=master;User ID=TCBaseTrain;Password=TCBaseTrain;MultipleActiveResultSets=True" />
+<add name="TCTrainCommon" connectionString="Data Source=10.100.173.5,1500;Initial Catalog=master;User ID=TCTrainCommon_local;Password=2CDxw6:xy7gf$6`ws*kkyjLBH;MultipleActiveResultSets=True" />
+<add name="TCTrainResource" connectionString="Data Source=10.100.41.2,1501;Initial Catalog=master;User ID=TCTrainResource_test;Password=w5iSYxOJNQ@_y#gVKxfzNzJG;MultipleActiveResultSets=True" />
+<add name="TCTrainMass" connectionString="Data Source=10.100.41.2,1501;Initial Catalog=master;User ID=TCTrainMass_test;Password=wR63eA0B2Y_n0h#yWGPZ5UsO;MultipleActiveResultSets=True" />
+<add name="TCTrainOrder" connectionString="server=10.100.156.103;Port=3500;user id=TCTrainOrder_local;password=.~1Fj~luDcYVSn~R4DPPkd^FF;database=TCTrainOrder" />
+<add name="TCTrainOrderSub" connectionString="server=10.100.156.106;Port=3500;user id=TCTrainOrderSub_local;password=KRV6CeRJUKs0xcycV8XYgFI;database=TCTrainOrderSub" />
+<add name="TCTrainSmartShelfOrder" connectionString="server=10.100.41.21;Port=3928;user id=TCTrainSmartShelfOrder_local;password=0DyRKmzqdWfusR5kEQLMY;database=TCTrainSmartShelfOrder" />
+<add name="TCTrainMultiple" connectionString="server=10.100.41.220;Port=3957;user id=TCTrainMultiple_local;password=YHVQm3U3uZq2ZbCtgfIz;database=TCTrainMultiple" />
+<add name="TCTrainkyfwShard" connectionString="server=10.100.41.21;Port=3928;user id=TCTrainkyfwShard_local;password=tHXtAip2xLwgUxqCYdsbS6;database=TCTrainkyfwShard" />
+<add name="TCTrainBerthPrice" connectionString="server=10.100.156.106;Port=3500;user id=TCTrainBerthPrice_local;password=F,$e#Cd|2+^CiVCa84?kSLJ*+;database=TCTrainBerthPrice" />
+<add name="TCTrainGrabOrder" connectionString="server=10.100.41.220;Port=3957;user id=TCTrainGrabOrder_local;password=0Csi5iSqrTRIleJAGhKQ;database=TCTrainGrabOrder" />
+<add name="TCTrainBaseResoue" connectionString="server=10.100.41.220;Port=3957;user id=TCTrainBaseResoue_local;password=e5iQHQ09uDaaRTEziOMlsd;database=TCTrainBaseResoue" />
+<add name="TCTrainMultiple" connectionString="server=10.100.41.220;Port=3957;user id=TCTrainMultiple_local;password=YHVQm3U3uZq2ZbCtgfIz;database=TCTrainMultiple" />
+<add name="TCTrainFinanceSettlement" connectionString="server=10.100.156.106;Port=3500;user id=TCTrainFinanceSettlement_local;password=CP5WrrYfK8sSJXUqdCSMQ0Kbtb557f;database=TCTrainFinanceSettlement" />
+<add name="TCTrainSharedAccount" connectionString="server=10.100.156.106;Port=3500;user id=TCTrainSharedAccount_local;password=fh9Mih0TYB2SVC9icxAt4ZmZ6ywdsb;database=TCTrainSharedAccount" />
+<add name="TCTrainAccount" connectionString="server=10.100.41.21;Port=3928;user id=TCTrainAccount_local;password=RZkPTMWHCcb1cL3eCuI5g;database=TCTrainAccount" />
+<add name="TCTrainDelivery" connectionString="server=10.100.156.106;Port=3500;user id=TCTrainDelivery_test;password=v78qPGvmBfmJl4oNifCWc;database=TCTrainDelivery" />
+说实话，我很讨厌那个时候的自己，像个渣男，没错，我并没有真正意义上喜欢过你，只是想体验那种感觉罢了，贪图一时的感觉，我们并不合适，性格不合，生活状态差距很大，基本上没什么共同话题，你从来不会主动，也许
+好吧，我回归一下我们从相识到现在的发展历程

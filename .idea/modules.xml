@@ -14,17 +14,21 @@
       <module fileurl="file://$PROJECT_DIR$/commons/commons-utils/commons-utils.iml" filepath="$PROJECT_DIR$/commons/commons-utils/commons-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/configuration/configuration.iml" filepath="$PROJECT_DIR$/configuration/configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/configuration/configuration-mybatisplus/configuration-mybatisplus.iml" filepath="$PROJECT_DIR$/configuration/configuration-mybatisplus/configuration-mybatisplus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-example/demo/demo.iml" filepath="$PROJECT_DIR$/springboot-example/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dependencies/dependencies.iml" filepath="$PROJECT_DIR$/dependencies/dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/javase/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/javase/design-pattern/design-pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/javase/javase.iml" filepath="$PROJECT_DIR$/javase/javase.iml" />
       <module fileurl="file://$PROJECT_DIR$/javase/lambda-streamapi/lambda-streamapi.iml" filepath="$PROJECT_DIR$/javase/lambda-streamapi/lambda-streamapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/moocStudy/moocStudy.iml" filepath="$PROJECT_DIR$/javase/moocStudy/moocStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider-bmap/provider-baidu.iml" filepath="$PROJECT_DIR$/provider/provider-bmap/provider-baidu.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider-bmap/provider-bmap.iml" filepath="$PROJECT_DIR$/provider/provider-bmap/provider-bmap.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider-plus/provider-plus.iml" filepath="$PROJECT_DIR$/provider/provider-plus/provider-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider/provider-tk/provider-tk.iml" filepath="$PROJECT_DIR$/provider/provider-tk/provider-tk.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-example/rabbitmq/rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-example/springboot-example.iml" filepath="$PROJECT_DIR$/springboot-example/springboot-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tc/tc.iml" filepath="$PROJECT_DIR$/tc/tc.iml" />
       <module fileurl="file://$PROJECT_DIR$/javase/thread/thread.iml" filepath="$PROJECT_DIR$/javase/thread/thread.iml" />
     </modules>
   </component>

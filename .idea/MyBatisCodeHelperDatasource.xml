@@ -10,6 +10,11 @@
         <option name="insertSelectiveMethodEnabled" value="false" />
         <option name="javaMapperPackage" value="com.byx.study.plus.mapper" />
         <option name="javaMapperPath" value="$PROJECT_DIR$/provider/provider-plus/src/main/java" />
+        <option name="javaMethodProfiles">
+          <map>
+            <entry key="generateColumns" value="&#10;import org.apache.commons.lang3.StringUtils;&#10;&#10;import java.util.Locale;&#10;&#10;public class ConverterImpl {&#10;    public String convertColumnNameToPropertyName(String s) {&#10;        return s.substring(5, 5 + 1).toLowerCase(Locale.ROOT) + s.substring(5+1);&#10;    }&#10;}&#10;" />
+          </map>
+        </option>
         <option name="javaModelPackage" value="com.byx.study.plus.entity" />
         <option name="javaModelPath" value="$PROJECT_DIR$/provider/provider-plus/src/main/java" />
         <option name="lastDatabaseCrudChooseModuleName" value="provider-plus" />
