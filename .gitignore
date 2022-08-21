@@ -13,11 +13,25 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+##MAVEN################################################################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+#idea
 .idea
-*.iws
 *.iml
-*.ipr
+.idea/.*
+.idea/workspace.xml
+.idea/*.*
+.idea/
+.idea/libraries/
 
 ### NetBeans ###
 /nbproject/private/
