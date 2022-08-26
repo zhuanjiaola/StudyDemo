@@ -1,4 +1,4 @@
-package com.byx.study.tc.entityDocGenerate;
+package entityDocGenerate;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -61,9 +61,9 @@ public class JavaToExcelUtil {
     }
 
     public static void main(String[] args) throws IOException {
-        String fileName = "TrainMakeOrderRecord";
-        String in = "/Users/mogo/IdeaProjects/personal/StudyDemo/commons/commons-dto/src/main/java/entityDocGenerate/" + fileName + ".java";
-        String out = "/Users/mogo/IdeaProjects/personal/StudyDemo/commons/commons-dto/src/main/java/entityDocGenerate";
+        String fileName = "FriendHelpLoginOrderRequest";
+        String in = "/Users/mogo/IdeaProjects/my/StudyDemo/tc/src/main/java/entityDocGenerate/" + fileName + ".java";
+        String out = "/Users/mogo/IdeaProjects/my/StudyDemo/tc/src/main/java/entityDocGenerate";
         javaToExcel(in, out, fileName);
     }
 
