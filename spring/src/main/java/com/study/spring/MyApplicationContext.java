@@ -1,9 +1,11 @@
-package study.spring;
+package com.study.spring;
 
 import java.io.File;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -19,6 +21,7 @@ public class MyApplicationContext {
 
     private ConcurrentHashMap<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>();
 
+    private List<BeanPostProcessor> beanPostProcessorList = new ArrayList<>();
 
     public MyApplicationContext(Class configClass) {
         this.configClass = configClass;
@@ -53,6 +56,11 @@ public class MyApplicationContext {
             if (instance instanceof BeanNameAware) {
                 ((BeanNameAware) instance).setBeanName(beanName);
             }
+
+            for (BeanPostProcessor processor : beanPostProcessorList) {
+                processor.postProcessBeforeInitialization(instance, beanName);
+            }
+
             // 初始化
             if (instance instanceof InitializingBean) {
                 try {
@@ -60,6 +68,10 @@ public class MyApplicationContext {
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
+            }
+
+            for (BeanPostProcessor processor : beanPostProcessorList) {
+                instance = processor.postProcessAfterInitialization(instance, beanName);
             }
 
             return instance;
@@ -109,6 +121,9 @@ public class MyApplicationContext {
                                 beanDefinition.setScope("singleton");
                             }
                             beanDefinitionMap.put(beanName, beanDefinition);
+                            if (BeanPostProcessor.class.isAssignableFrom(clazz)) {
+                                beanPostProcessorList.add((BeanPostProcessor) getBean(beanName));
+                            }
                         }
                     } catch (ClassNotFoundException e) {
                         e.printStackTrace();

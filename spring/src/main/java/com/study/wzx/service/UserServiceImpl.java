@@ -1,10 +1,10 @@
-package study.wzx.service;
+package com.study.wzx.service;
 
-import study.spring.AutoWired;
-import study.spring.BeanNameAware;
-import study.spring.Component;
-import study.spring.InitializingBean;
-import study.spring.Scope;
+import com.study.spring.AutoWired;
+import com.study.spring.BeanNameAware;
+import com.study.spring.Component;
+import com.study.spring.InitializingBean;
+import com.study.spring.Scope;
 
 /**
  * @author 1205869
@@ -12,7 +12,7 @@ import study.spring.Scope;
  */
 @Component("userService")
 @Scope("prototype")
-public class UserService implements BeanNameAware, InitializingBean {
+public class UserServiceImpl implements BeanNameAware, InitializingBean, UserService {
 
     @AutoWired
     private OrderService orderService;

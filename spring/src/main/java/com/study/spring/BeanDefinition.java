@@ -1,4 +1,4 @@
-package study.spring;
+package com.study.spring;
 
 /**
  * @author 1205869

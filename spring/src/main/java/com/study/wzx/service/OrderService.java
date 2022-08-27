@@ -1,7 +1,7 @@
-package study.wzx.service;
+package com.study.wzx.service;
 
-import study.spring.Component;
-import study.spring.Scope;
+import com.study.spring.Component;
+import com.study.spring.Scope;
 
 /**
  * @author 1205869

@@ -1,8 +1,4 @@
-/**
- * LY.com Inc.
- * Copyright (c) 2004-2021 All Rights Reserved.
- */
-package study.spring;
+package com.study.spring;
 
 /**
  * @author 1205869
