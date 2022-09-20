@@ -17,7 +17,7 @@ public class UserServiceImpl implements BeanNameAware, InitializingBean, UserSer
     @AutoWired
     private OrderService orderService;
 
-    private String beanName;
+    private String       beanName;
 
     @Override
     public void setBeanName(String name) {

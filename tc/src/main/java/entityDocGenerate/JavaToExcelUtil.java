@@ -61,7 +61,7 @@ public class JavaToExcelUtil {
     }
 
     public static void main(String[] args) throws IOException {
-        String fileName = "FriendHelpLoginOrderRequest";
+        String fileName = "ModifyPassengerRequest";
         String in = "/Users/mogo/IdeaProjects/my/StudyDemo/tc/src/main/java/entityDocGenerate/" + fileName + ".java";
         String out = "/Users/mogo/IdeaProjects/my/StudyDemo/tc/src/main/java/entityDocGenerate";
         javaToExcel(in, out, fileName);
