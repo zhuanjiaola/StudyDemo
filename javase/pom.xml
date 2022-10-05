@@ -18,6 +18,7 @@
         <module>algorithm</module>
         <module>thread</module>
         <module>moocStudy</module>
+        <module>reflect</module>
     </modules>
 
     <dependencies>
