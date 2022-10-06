@@ -9,17 +9,17 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = RabbitmqApplication.class)
-class RabbitmqApplicationTests {
+public class RabbitmqApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
     @Autowired
     private HelloRabbitProvider helloRabbitProvider;
 
     @Test
-    void test01() {
+    public void test01() {
         for (int i = 0; i < 20; i++) {
             helloRabbitProvider.send();
         }
