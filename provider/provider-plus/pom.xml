@@ -68,7 +68,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.byx.study.plus.PlusProviderApplciation</mainClass>
+                    <mainClass>com.byx.study.plus.PlusProviderApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
