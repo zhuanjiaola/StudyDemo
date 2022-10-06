@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.byx.study</groupId>
-        <artifactId>parent</artifactId>
+        <artifactId>springboot-example</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>demo</artifactId>
