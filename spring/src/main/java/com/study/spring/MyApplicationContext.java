@@ -100,9 +100,9 @@ public class MyApplicationContext {
     private Object createBean(String beanName, BeanDefinition beanDefinition) {
         Class clazz = beanDefinition.getClazz();
         try {
-            Object instance = clazz.getDeclaredConstructor().newInstance();
+            Object instance = clazz.newInstance();
             // 依赖注入
-            for (Field field : beanDefinition.getClazz().getDeclaredFields()) {
+            for (Field field : clazz.getDeclaredFields()) {
                 if (field.isAnnotationPresent(AutoWired.class)) {
                     Object bean = getBean(field.getName());
                     field.setAccessible(true);
@@ -116,7 +116,7 @@ public class MyApplicationContext {
 
             // 初始化前
             for (BeanPostProcessor processor : beanPostProcessorList) {
-                processor.postProcessBeforeInitialization(instance, beanName);
+                instance = processor.postProcessBeforeInitialization(instance, beanName);
             }
 
             // 初始化
@@ -137,10 +137,6 @@ public class MyApplicationContext {
         } catch (InstantiationException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
             e.printStackTrace();
         }
         return null;
