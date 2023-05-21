@@ -9,7 +9,9 @@ public class CPUTest {
     public static void main(String[] args) {
         String sentence = String.join(" ", args);
         for (int iter = 0; iter < ITERATIONS; iter++) {
-            if (ITERATIONS != 1) System.out.println("-- iteration " + (iter + 1) + " --");
+            if (ITERATIONS != 1) {
+                System.out.println("-- iteration " + (iter + 1) + " --");
+            }
             long total = 0, start = System.currentTimeMillis(), last = start;
             for (int i = 1; i < 10_000_000; i++) {
                 total += sentence.chars().filter(Character::isUpperCase).count();
