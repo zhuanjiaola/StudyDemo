@@ -6,6 +6,10 @@ package com.study.spring;
  */
 public interface BeanNameAware {
 
+    /**
+     * 设置bean名称
+     * @param name bean名称
+     */
     void setBeanName(String name);
 
 }

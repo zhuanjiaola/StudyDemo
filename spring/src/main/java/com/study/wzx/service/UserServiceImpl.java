@@ -19,16 +19,27 @@ public class UserServiceImpl implements BeanNameAware, InitializingBean, UserSer
 
     private String       beanName;
 
+    /**
+     * 设置Bean的名称
+     * @param name Bean的名称
+     */
     @Override
     public void setBeanName(String name) {
         beanName = name;
     }
 
+    /**
+     * 初始化方法，用于在Bean属性设置完成后执行自定义初始化逻辑
+     * @throws Exception 初始化过程中发生的异常
+     */
     @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("初始化");
     }
 
+    /**
+     * 测试方法
+     */
     public void test() {
         System.out.println(orderService);
         System.out.println(beanName);
